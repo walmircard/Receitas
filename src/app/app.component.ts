@@ -23,8 +23,8 @@ export class MyApp {
       private autenticacaoService: AutenticacaoService) {
     
     firebase.initializeApp({
-      apiKey: "AIzaSyDqqi1ib9HOnpVrbSeZ2fHOLYraI20ty-Y",
-      authDomain: "receitas-c37d0.firebaseapp.com"
+      apiKey: "AIzaSyBhGjI_d0pMNE-Rzkzo6rzeKQWJ3p1IPXc",
+      authDomain: "receitas-ee6cc.firebaseapp.com"
     });
     
     firebase.auth().onAuthStateChanged(user => {
